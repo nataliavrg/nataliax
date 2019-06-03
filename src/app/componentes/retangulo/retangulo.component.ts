@@ -12,6 +12,6 @@ export class RetanguloComponent{
 
   calcular(): void{
     let area = Number(this.base) * Number(this.altura);
-    this.resultado = "a área é: "+area;
+    this.resultado = "A área é: "+area;
   }
 }

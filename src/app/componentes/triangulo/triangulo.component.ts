@@ -12,6 +12,6 @@ export class TrianguloComponent{
 
   calcular(): void{
     let area = Number(this.base) * Number(this.altura) / 2;
-    this.resultado = "a área é: "+area;
+    this.resultado = "A área é: "+area;
   }
 }

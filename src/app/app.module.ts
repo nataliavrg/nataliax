@@ -10,11 +10,12 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TrianguloComponent} from './componentes/triangulo/triangulo.component';
 import { RetanguloComponent } from './componentes/retangulo/retangulo.component';
+import { LosangoComponent } from './componentes/losango/losango.component';
 
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent,TrianguloComponent,RetanguloComponent],
+  declarations: [AppComponent,TrianguloComponent,RetanguloComponent,LosangoComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule],
   providers: [

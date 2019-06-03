@@ -6,12 +6,12 @@ import { Component} from "@angular/core";
   templateUrl: "losango.component.html"
 })
 export class LosangoComponent{
-  diagonalmenor: number = 0;
-  diagonalmaior: number = 0;
+  diagonalMenor: number = 0;
+  diagonalMaior: number = 0;
   resultado: string;
 
   calcular(): void{
-    let area = Number(this.diagonalmenor) * Number(this.diagonalmaior) / 2;
-    this.resultado = "a área é: "+area;
+    let area = Number(this.diagonalMaior) * Number(this.diagonalMenor) / 2;
+    this.resultado = "A área é: "+area;
   }
 }
